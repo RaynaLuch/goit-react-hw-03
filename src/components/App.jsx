@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import "./App.css";
-import contactsjson from "../contacts.json/";
+import contactsjson from "../contacts.json";
 import { ContactList } from "./ContactList/ContactList";
 import { SearchBox } from "./SearchBox/SearchBox";
 import { ContactForm } from "./ContactForm/ContactForm";

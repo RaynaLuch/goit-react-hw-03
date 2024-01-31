@@ -2,7 +2,7 @@ import css from "./SearchBox.module.css";
 export const SearchBox = ({ value, onChange }) => {
   return (
     <div className={css.search}>
-      <label for="search">Find contacts by name</label>
+      <label htmlFor="search">Find contacts by name</label>
       <input
         id="search"
         type="text"
